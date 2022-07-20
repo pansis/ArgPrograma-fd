@@ -1,0 +1,21 @@
+.education-block {
+    max-width: 200em;
+    margin: 0 auto 30px auto;
+    padding: 15px;
+    border: 1px rgb(99, 86, 64);
+    text-align: left;
+    background-size:cover;
+    background-color: rgb(251,232,222);
+    box-shadow: 0em 0em 0.5em ;
+    border-radius: 1em 1em 4em 1em;
+}
+.education-block span {
+    float: right;
+}
+h3{
+    float: left;
+}
+h4{
+    clear: both;
+    margin: 0 0 15px 0;
+}

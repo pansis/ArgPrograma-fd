@@ -1,0 +1,15 @@
+
+.html, .css, .js, .angular{
+    opacity: 5;
+    text-align: center;
+    padding-left: 2em;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+    justify-content: center;
+}
+h3{
+    text-align: center;
+}

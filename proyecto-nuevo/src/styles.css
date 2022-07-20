@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+border: 0;
+}
+
+body{
+    background-color: rgb(247,222,221);
+    font-family: 'Mali', cursive;
+    color:rgb(136,115,98);
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+h1{
+    padding: 0.3em;
+    padding-bottom: 0.8em;
+    margin-top: 0.5em;
+    text-align: center;
+    font-size: 2.5em;
+}

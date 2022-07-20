@@ -1,0 +1,138 @@
+a,a:link,a:visited{
+    color:#fff;  
+}
+a:hover{
+    color:rgb(247,222,221);
+}
+.desplegable{
+    background-image: url(../../../../assets/abeeee.png);
+    background-size: cover;
+    background-color: rgb(99, 86, 64);
+}
+.prueba{
+    background-color: rgb(99, 86, 64);
+}
+h5{
+    color: #fff;
+}
+button{
+    color: #fff !important;
+}
+#hamburguesa{
+    color: #fff;
+}
+.acerca-dm{
+    border-radius: 10em;
+    border: rgb(251,232,222) solid 0.3em;
+    padding: 0.8em;
+}
+.exp{
+    border-radius: 10em;
+    border: rgb(251,232,222) solid 0.3em;
+    padding: 0.8em;
+}
+.estudio{
+    border-radius: 10em;
+    border: rgb(251,232,222) solid 0.3em;
+    padding: 0.8em;
+    
+}
+.skills{
+    border-radius: 10em;
+    border: rgb(251,232,222) solid 0.3em;
+    padding: 0.8em;
+}
+.proyects{
+    border-radius: 10em;
+    border: rgb(251,232,222) solid 0.3em;
+    padding: 0.8em;
+}
+.logoAp{
+     line-height: 0.2em;
+     width: 5em;
+     float: right;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 2%;
+
+}
+.listas-nav a{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.nav-item-1{
+    margin-top: 0.5em;
+margin-left: 0.7em;
+}
+
+@media all and (min-width:320px){
+
+    #contenedor-M img{
+    width: 10vw;
+    }
+    #contenedor-M #cerrar{
+    display: none;
+    }
+    #contenedor-M #contenedor-En{
+        height: 0;
+        transition: height 1s ease;
+        overflow: hidden;
+    }
+    #contenedor-M:target #abrir{
+        display: none;
+    } 
+    #contenedor-M:target #cerrar{
+        display: block;
+        width: 7vw;
+    }
+    #contenedor-M:target #contenedor-En{
+        height: 25vh;
+        transition: height 1s ease;
+    }
+    #contenedor-En a{
+        display: block;
+        width: 80%;
+        margin-bottom: 0.25em;
+        margin-top: 0.25em;
+        text-decoration: none;
+        margin: 1em;
+    }
+
+    #contenedor-M{
+        background-color: rgb(136,115,98);
+    }
+    #logoAp{
+        width: 150%;
+        float: right;
+        justify-content: space-between;
+        align-items: center;
+    }
+    a,a:link,a:visited{
+        color:#fff;  
+    }
+    
+    a:hover{
+        color:rgb(247,222,221)
+    }
+}
+
+@media all and (min-width: 768px){
+    #abrir, #cerrar{
+            display: none;
+    }
+    #contenedor-M #contenedor-En {
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        height: 10vh;
+        align-content:space-around ;
+    }
+    #contenedor-M #contenedor-En a:hover, #contenedor-M #contenedor-En a:focus{
+        background-color: rgb(136,115,98);
+        text-decoration: none;
+    }
+    #contenedor-En a{
+        align-content:space-around ;
+    }
+    }

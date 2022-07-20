@@ -1,0 +1,11 @@
+hr{
+    margin-top: 2px;
+    margin-bottom: 5px;
+    color: rgb(136,115,98);
+}
+
+div{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}

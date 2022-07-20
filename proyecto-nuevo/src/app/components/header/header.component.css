@@ -1,0 +1,13 @@
+.navegadorcito{
+    background-color: rgb(136,115,98);
+    overflow: hidden; 
+
+}
+
+
+.fotitoPerfil{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+   
+}
